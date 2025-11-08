@@ -1,16 +1,40 @@
-Project Title:-
-**Hybrid Energy Prediction Project**
+HYBRID ENERGY PREDICTION PROJECT
 
-Description:-  
-This project predicts how much energy can be generated from multiple renewable sources like solar and wind using AI and machine learning. The goal is to help manage and plan energy usage efficiently.
+Project Overview:
 
-In this 30% phase, the dataset was collected from Kaggle, cleaned, preprocessed, and analyzed. An initial prediction model has been built to estimate hybrid energy output.
+This project focuses on predicting the amount of energy generated from multiple renewable sources like solar and wind using Artificial Intelligence (AI) and Machine Learning (ML). The main goal is to help in managing and planning renewable energy usage more efficiently.
 
-Dataset:-  
-The dataset (intermittent-renewables-production-france.csv) contains solar and wind energy production data with time, date, and related features. It helps train the model to understand energy generation patterns over time.
+Objective:
 
-Implementation Progress:-  
--Collected dataset from Kaggle  
--Cleaned and preprocessed data  
--Engineered features like date, time, and energy source  
--Built and tested initial AI/ML prediction model
+To develop a model that learns from past solar and wind energy production data and accurately predicts future hybrid energy generation.
+
+Week 1 Milestone (30%):
+
+In this phase, the dataset was collected from Kaggle and preprocessed. The data was cleaned, missing values were removed, and datetime features were standardized. Time-based features such as hour, day, month, and weekday were created. A visualization of energy production over time was generated, and the cleaned dataset was saved for future model training.
+
+Week 2 Milestone (50%):
+
+In this phase, the processed data was split into training and testing sets. A Random Forest Regressor model was trained using features like hour, day, month, and energy sources (solar and wind). The model predicted energy production and compared the predicted values with actual results. Performance was evaluated using MAE, RMSE, and R² scores to measure accuracy. The trained model was saved for future use.
+
+Dataset Details:
+
+Dataset: intermittent-renewables-production-france.csv
+Source: Kaggle
+Description: The dataset contains hourly solar and wind energy production data. It helps identify time-based patterns and trends to predict total hybrid energy output.
+
+AI and ML Involvement:
+
+This project applies both AI and ML concepts.
+AI is used for intelligent prediction and decision-making, while ML techniques (Random Forest Regressor) are used to train the model from historical data and make accurate predictions.
+
+Tools and Technologies:-
+
+Python
+Google Colab
+Pandas, NumPy, Matplotlib
+Scikit-learn
+Joblib
+
+Conclusion:
+
+Up to Week 2, the project successfully completed data collection, preprocessing, model training, prediction, and evaluation. The model can now predict hybrid renewable energy output accurately and serves as a base for further improvement in upcoming phases.
