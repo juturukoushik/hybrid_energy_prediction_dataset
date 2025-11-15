@@ -1,0 +1,14 @@
+Hybrid Energy Prediction - Final Summary
+
+Model metrics:
+RandomForest: MAE=91.26, RMSE=295.85, R2=0.9873
+XGBoost: MAE=81.95, RMSE=222.40, R2=0.9928
+LSTM: MAE=957.24, RMSE=1860.33, R2=0.4961
+
+Saved files:
+- merged_predictions_all_models.csv
+- plot_actual_vs_predicted.png
+- plot_residuals.png
+- plot_scatter_actual_vs_pred.png
+- plot_rolling_24h.png
+- plot_feature_importance.png
